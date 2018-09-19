@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width= , initial-scale=1.0">
@@ -7,12 +8,25 @@
     <link rel="stylesheet" href="css/index.css" />
     <title>Login</title>
 </head>
+
 <body>
-   
-   <div class="box">
-       UserID:<input type="text" class="username"><br>
-       Password:<input class="password">
-   </div>
-   
+
+    <div class="container">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">UID</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Password</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Password" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <button type="submit" class="btn btn-light">Submit</button>
+    </div>
+
 </body>
+
 </html>
