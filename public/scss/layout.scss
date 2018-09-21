@@ -1,10 +1,18 @@
 .container {
     width: 50%;
     position: relative;
-    top: 13rem;
+    top: 10rem;
 }
 
-.btn-light {
+.btn-primary {
     position: absolute;
+    left: 40%;
+}
+
+.pop-up {
+    position: absolute;
+}
+.head {
+    position: relative;
     left: 40%;
 }

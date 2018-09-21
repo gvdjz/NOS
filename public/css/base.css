@@ -1,2 +1,7 @@
-html body {
-  background-color: #f2f2f2; }
+body {
+  background-color: #f2f2f2;
+  border-left: 2px solid #e9ecef;
+  border-right: 2px solid #e9ecef;
+  width: 80%;
+  position: relative;
+  left: 10%; }

@@ -1,7 +1,10 @@
 $background: #f2f2f2;
-
-html body {
+body {
     
-    background-color: $background;
-        
+    background-color: $background;        
+    border-left: 2px solid #e9ecef;
+    border-right: 2px solid #e9ecef;
+    width: 80%;
+    position: relative;
+    left: 10%;
 }
