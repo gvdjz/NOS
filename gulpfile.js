@@ -20,7 +20,7 @@ gulp.task('css', ()  =>  {
 // Move the javascript files into our /src/js folder
 gulp.task('js', ()  =>  {
     return  gulp
-        .src(['./node_modules/bootstrap/dist/js/bootstrap.min.js',  './node_modules/jquery/dist/jquery.min.js',  './node_modules/popper.js/dist/popper.min.js'])
+        .src(['./node_modules/bootstrap/dist/js/bootstrap.min.js',  './node_modules/jquery/dist/jquery.min.js',  './node_modules/popper.js/dist/popper.min.js', './node_modules/handlebars/lib/handlebars.js'])
         .pipe(gulp.dest('./public/js'))
         .pipe(browserSync.stream());
 });
